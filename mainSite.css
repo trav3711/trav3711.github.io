@@ -1,0 +1,70 @@
+body{
+  background-color: #1f1f2e;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+#name{
+  margin: 0;
+  text-align: left;
+  font-size: 36pt;
+  letter-spacing: 3px;
+  color: #b2a3a9;
+  font-weight: lighter;
+}
+
+.description{
+  margin: 0;
+  font-weight: lighter;
+}
+
+#bio{
+ letter-spacing: 1px;
+}
+
+#Japanese{
+  letter-spacing: 3px;
+  font-family: "hiragino sans", sans-serif;
+  font-size: 20pt;
+}
+
+.content-title{
+  font-weight: inherit;
+  width: 10em;
+  color: #b2a3a9;
+  font-size: 24pt;
+
+}
+
+.content{
+  font-weight: lighter;
+  width: 60%;
+  font-size: 16pt;
+}
+
+ul{
+  font-size: 14pt;
+  line-height: 200%;
+  letter-spacing: 2px;
+  list-style-type: circle;
+}
+
+.links{
+  line-height: 300%;
+}
+
+a, a:link, a:visited {
+  color: #ffb961;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 24pt;
+  transition: color .4s;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #ffddb3;
+  transition: color .4s;
+}
