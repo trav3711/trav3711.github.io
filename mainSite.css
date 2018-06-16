@@ -6,6 +6,11 @@ body{
   font-weight: lighter;
 }
 
+p{
+  font-size: 14pt;
+  letter-spacing: 2px;
+}
+
 #name{
   margin: 0;
   text-align: left;
@@ -94,7 +99,7 @@ li{
 
 p.resume_description{
   font-size: 12pt;
-  text-indent: 2em;
+  margin-left: 2em;
   letter-spacing: 2px;
 }
 
