@@ -38,9 +38,10 @@ body{
 
 }
 
-.content{
+div.content{
+  margin-left: 2em;
   font-weight: lighter;
-  width: 60%;
+  width: inherit;
   font-size: 16pt;
 }
 
@@ -67,4 +68,36 @@ a, a:link, a:visited {
 a:hover{
   color: #ffddb3;
   transition: color .4s;
+}
+
+/*Resume Style*/
+
+h3.resume_item{
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+span.job_title{
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16pt;
+}
+
+span.date{
+  font-size: 12pt;
+}
+
+li{
+  font-size: 12pt;
+  list-style-type: disc;
+}
+
+p.resume_description{
+  font-size: 12pt;
+  text-indent: 2em;
+  letter-spacing: 2px;
+}
+
+a.resume_link{
+  font-size: 18pt;
 }
