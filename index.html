@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title> Travis </title>
-  <meta charset="UTF-8">
-  <link href="mainSite.css" rel="stylesheet" type="text/css">
-  <script src="mainsite.js" type="text/javascript"></script>
+
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- JS -->
+  <script src="index.js" type="text/javascript"></script>
+
+  <!-- jQuery and Bootstrap dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <!--Bootstrap Core CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link href="index.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
-  <hr />
-  <div id="main-body">
-    <h1 id="name">Travis C. Welch</h1>
-    <h2 class="description" id="Japanese">トラビスウェルチュ</h2>
-    <h2 class="description" id="bio">an introverted introspective extrovert</h2>
-    <hr />
-    <h2 class="content-title" id="experiences">Hello</h2>
-    <div class="content">
-      <p>21 year old student working living in Portland, OR. Studying Mathematics and Computer Science at Lewis & Clark college. Interested in Natural Language Processing, Machine learning, and computer architecture. On my off days I take pictures, climb rocks, and recklessly bike through traffic.</p>
+
+  <div class="main" style="max-width: 1200px; padding: 10px;">
+    <div class="container">
+      <div class="row justify-content-center" style="">
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2 icon">
+            <h1 class="icon_name">Travis</h1>
+            <h1 class="icon_name">Welch</h1>
+            <h2 class="icon_jap" style="font-size: 18pt;">虎美住</h2>
+          </div>
+          <div class="col-md-6" style="padding-right: 0;"><p class="lead">Twenty one year old Math and Computer Science student living in Portland, OR. Occasionally bikes and climbs. Has been known to cook a dish or two. Eventually will enter the tech industrty as an engineer with an emphasis on intuitive design.</p></div>
+      </div>
+      <div class="row dropdown justify-content-center">
+        <button class="btn dropdown-toggle col-xs-12 col-lg-8 col-md-9" type="button" id="dropdownbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 500px;"></button>
+        <!--<section class="row"id="nav">
+          <div id="nav-wrapper">
+            <ul id="nav-list">
+              <li id="nav-dest">test</li>
+              <li id="nav-dest">test</li>
+              <li id="nav-dest">test</li>
+              <li id="nav-dest">test</li>
+            </ul>
+          </div>
+        </section>-->
+        <div class="dropdown-menu col-lg-8 col-md-9" aria-labelledby="dropdownbutton">
+          <a class="dropdown-item" href="">one</a>
+          <a class="dropdown-item" href="">one</a>
+          <a class="dropdown-item" href="">one</a>
+        </div>
+      </div>
     </div>
-  <div class="links">
-    <a href="mainSite-resume.html">Resume</a><br />
-    <a href="https://github.com/trav3711">GitHub</a><br />
-    <a href="https://www.linkedin.com/in/travis-welch-004b63107/">LinkedIn</a><br />
-    <a href="https://soundcloud.com/motherandthechyld">SoundCloud</a>
   </div>
+
 </body>
 </html>

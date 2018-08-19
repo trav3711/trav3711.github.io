@@ -1,0 +1,49 @@
+body
+  /*background-color: #c9e8de;*/
+  font-family: 'Oswald', sans-serif
+
+
+.main
+  margin-top: 15%
+
+
+.icon
+  border: solid
+  border-width: 10px
+  border-color: black
+  margin-right: 0px
+
+.dropdown-menu
+  left: auto
+
+#dropdownbutton
+  border: solid
+  border-color: black
+  border-radius: 0
+  color: white
+  background-color: black
+
+.dropdown:hover>.dropdown-menu a.dropdown-item
+  display: block
+
+//attempt at making menu animation
+
+.dropdown:hover>.dropdown-menu
+  perspective: 1000px
+
+  a.dropdown-item
+    opacity: 0
+
+    animation:
+      name: dropdown-menu
+      duration: 300ms
+      timing-function: ease-in-out
+      fill-mode: forwards
+
+  @keyframes dropdown-item
+    0%
+      opacity: 0
+      transform: rotateY(-90deg) translateY(30px)
+    100%
+      opacity: 1
+      transform: rotate(0deg) translateY(0px)
