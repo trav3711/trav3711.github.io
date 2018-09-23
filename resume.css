@@ -1,7 +1,101 @@
-h3{
+body {
+  /*background-color: #c9e8de; */
+  font-family: "Oswald", sans-serif;
+  }
+
+.container{
 
 }
 
+.main {
+  margin-top: 15%; }
+
+.icon {
+  border: solid;
+  border-width: 10px;
+  border-color: black;
+  margin-right: 0px; }
+
+#dropdownbutton {
+  border: solid;
+  border-color: black;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+}
+
+.dropdown-menu {
+  left: auto; }
+
+.dropdown:hover > .dropdown-menu{
+  display: block;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+/*
+@keyframes test {
+
+}*/
+
+/* Resume Style */
+
+.container{
+  margin-left: 30px;
+  width: 150px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+h1.logo, h2.ogo{
+  margin: 0;
+}
+
+.icon_name{
+  margin:0;
+  width: inherit;
+}
+
+#travis #welch{
+  margin: 1px;
+}
+
+.icon_jap{
+  width: 25px;
+  float: left;
+}
+
+#icon_jap{
+  font-weight: normal;
+}
+
+#resume_body{
+  margin-left: 2em;
+}
+
+.content_title{
+  text-decoration: underline;
+  font-size: 22pt;
+}
+
+.resume_item{
+  margin-bottom: 5px;
+}
+
 .job_title{
-    font-style: italic;
+  font-style: italic;
+}
+
+a, a:link, a:visited {
+  color: #ffb961;
+  text-decoration: none;
+  transition: color .4s;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #ffddb3;
+  transition: color .4s;
+  text-decoration: none;
 }

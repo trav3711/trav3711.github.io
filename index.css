@@ -1,9 +1,13 @@
 body {
-  /*background-color: #c9e8de; */
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  }
 
-.main {
-  margin-top: 15%; }
+.container{
+
+}
+
+/*.main {
+  /margin-top: 15%; }*/
 
 .icon {
   border: solid;
@@ -28,7 +32,6 @@ body {
   transition: width 2s;
 }
 
-/*
-@keyframes test {
+a.dropdown_item{
 
-}*/
+}
