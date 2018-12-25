@@ -11,8 +11,9 @@ body {
 
 .icon {
   border: solid;
+  border-bottom: none;
   border-width: 10px;
-  border-color: black;
+  /*border-color: black;*/
   margin-right: 0px; }
 
 #dropdownbutton {
