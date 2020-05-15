@@ -11,7 +11,6 @@ body {
 
 .icon {
   border: solid;
-  border-bottom: none;
   border-width: 10px;
   /*border-color: black;*/
   margin-right: 0px; }
@@ -25,7 +24,8 @@ body {
 }
 
 .dropdown-menu {
-  left: auto; }
+  left: auto;
+}
 
 .dropdown:hover > .dropdown-menu{
   display: block;
